@@ -447,6 +447,12 @@ table.list {
 	margin-top:10px;
 	border:0px solid #222;-moz-border-radius: 5px;-webkit-border-radius: 5px
 }
+table.list:not(.odd-even) tbody tr:nth-child(2n), .even, #issue-changesets div.changeset:nth-child(2n) {
+    background-color: #848383;
+}
+table.list:not(.odd-even) tbody tr:nth-child(2n+1), .odd, #issue-changesets div.changeset:nth-child(2n+1) {
+    background-color: #666;
+}
 table.list thead th,
 table.filecontent th.filename {
 	background:url(../images/bgs/main_menu_bg_unselected.png) repeat-x;
