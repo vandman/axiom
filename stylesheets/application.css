@@ -3,7 +3,7 @@
 
 
 /* Reset */
-html, body { height:100% }
+html, body { /*height:100%*/ }
 body {
 	background:url(../images/bgs/body_bg.png) repeat-x #8B8B8B;
 	margin:0px;
