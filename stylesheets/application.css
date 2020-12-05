@@ -98,7 +98,7 @@ hr {
 	-webkit-border-bottom-right-radius:10px;*/
 }	
 #header {
-	width:1020px;
+	width:100%;
 	background:#333 url(../images/bgs/bg_header.png) repeat-x top;
 	padding:10px 0;
 	border-bottom:1px solid #000;
@@ -130,7 +130,7 @@ hr {
 	min-height: 100%;
 }
 #content { 
-	width:732px;
+	width:100%;
 	border:none;
 	background:none;
 }
